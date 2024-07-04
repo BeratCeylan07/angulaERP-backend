@@ -1,0 +1,15 @@
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServer.Application.csproj.AssemblyReference.cache
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServer.Application.AssemblyInfoInputs.cache
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServer.Application.AssemblyInfo.cs
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServer.Application.csproj.CoreCompileInputs.cache
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/bin/Debug/net8.0/ERPServer.Application.deps.json
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/bin/Debug/net8.0/ERPServer.Application.dll
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/bin/Debug/net8.0/ERPServer.Application.pdb
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/bin/Debug/net8.0/ERPServer.Domain.dll
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/bin/Debug/net8.0/ERPServer.Domain.pdb
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServe.91329C4E.Up2Date
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServer.Application.dll
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/refint/ERPServer.Application.dll
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ERPServer.Application.pdb
+/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/Debug/net8.0/ref/ERPServer.Application.dll
