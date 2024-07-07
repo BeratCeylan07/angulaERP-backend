@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Y4PmV06b38rzZuPbTHa26ftOpKzNYx4LbPA97GwTp1DyQKaA06WmaltxIVPZgBHMiCJvPal1iSgWm14NpWYEg==",
+  "dgSpecHash": "j6To8KrCzr3GHVCbmw7VE3pzQS7xynEK+o7UybYgdA7r+yixDs+BnGoM5B5v+2sXU7EW5MqbtP5Yg5Mhqlzrew==",
   "success": true,
-  "projectFilePath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj",
+  "projectFilePath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj",
   "expectedPackageFiles": [
     "/Users/beratceylan/.nuget/packages/ardalis.smartenum/8.0.0/ardalis.smartenum.8.0.0.nupkg.sha512",
     "/Users/beratceylan/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",

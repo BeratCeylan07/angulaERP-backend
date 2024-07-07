@@ -23,3 +23,16 @@ C:/ERP/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ref/ERPServer.Domain.dll
 /Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/obj/Debug/net8.0/refint/ERPServer.Domain.dll
 /Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.pdb
 /Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ref/ERPServer.Domain.dll
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/bin/Debug/net8.0/ERPServer.Domain.deps.json
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/bin/Debug/net8.0/ERPServer.Domain.dll
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/bin/Debug/net8.0/ERPServer.Domain.pdb
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.csproj.AssemblyReference.cache
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.AssemblyInfoInputs.cache
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.AssemblyInfo.cs
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.csproj.CoreCompileInputs.cache
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.sourcelink.json
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.dll
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/refint/ERPServer.Domain.dll
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ERPServer.Domain.pdb
+/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/Debug/net8.0/ref/ERPServer.Domain.dll

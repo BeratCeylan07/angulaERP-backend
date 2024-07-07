@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {}
+    "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
+    "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
+        "projectUniqueName": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
         "projectName": "ERPServer.Application",
-        "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
+        "projectPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
         "packagesPath": "/Users/beratceylan/.nuget/packages/",
-        "outputPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/obj/",
+        "outputPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/NuGet.Config",
           "/Users/beratceylan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
-                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
+              "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
+                "projectPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
               }
             }
           }
@@ -89,17 +88,16 @@
         }
       }
     },
-    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
+    "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
+        "projectUniqueName": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
         "projectName": "ERPServer.Domain",
-        "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
+        "projectPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
         "packagesPath": "/Users/beratceylan/.nuget/packages/",
-        "outputPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/obj/",
+        "outputPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/NuGet.Config",
           "/Users/beratceylan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -158,17 +156,16 @@
         }
       }
     },
-    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {
+    "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
+        "projectUniqueName": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
         "projectName": "ERPServer.Infrastructure",
-        "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
+        "projectPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
         "packagesPath": "/Users/beratceylan/.nuget/packages/",
-        "outputPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/obj/",
+        "outputPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/NuGet.Config",
           "/Users/beratceylan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -181,11 +178,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
-                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj"
+              "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
+                "projectPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Application/ERPServer.Application.csproj"
               },
-              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
-                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
+              "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
+                "projectPath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
               }
             }
           }

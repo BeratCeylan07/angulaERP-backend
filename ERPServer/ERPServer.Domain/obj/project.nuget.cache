@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PAsj6gww3u7G3fHxu0KdXj8Iag+vaDLxSndCnHYZT9TBWsJkSesZPqUTIAUda5FmD6mP29Helkozw79fTkuwWw==",
+  "dgSpecHash": "BrAli+v42EfEhp56yXYbQz0k5f7Fgt9hjgjaBQz9khxuliKtW2uC2vwgNefa1J/5QYGwf4p28jy7pDXLT5ZlBg==",
   "success": true,
-  "projectFilePath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
+  "projectFilePath": "/Users/beratceylan/Documents/GitHub/angulaERP-backend/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/beratceylan/.nuget/packages/ardalis.smartenum/8.0.0/ardalis.smartenum.8.0.0.nupkg.sha512",
     "/Users/beratceylan/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.4/microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
