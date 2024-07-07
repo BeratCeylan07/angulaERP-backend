@@ -5,19 +5,23 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ERPServer.Infrastructure.Context;
-
-public sealed class ApplicationDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>, Guid>, IUnitOfWork
+internal sealed class ApplicationDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>, Guid>, IUnitOfWork
 {
     public ApplicationDbContext(DbContextOptions options) : base(options)
     {
     }
+
     public DbSet<Customer> Customers { get; set; }
     public DbSet<Depot> Depots { get; set; }
-    public DbSet<Product> Product { get; set; }
+    public DbSet<Product> Products { get; set; }
     public DbSet<Recipe> Recipes { get; set; }
     public DbSet<RecipeDetail> RecipeDetails { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<OrderDetail> OrderDetails { get; set; }
+    public DbSet<StockMovement> StockMovements { get; set; }
+    public DbSet<Invoice> Invoices { get; set; }
+    public DbSet<InvoiceDetail> InvoiceDetails { get; set; }
+    public DbSet<Production> Productions { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -30,4 +34,3 @@ public sealed class ApplicationDbContext : IdentityDbContext<AppUser, IdentityRo
         builder.Ignore<IdentityUserClaim<Guid>>();
     }
 }
-

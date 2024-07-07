@@ -1,7 +1,7 @@
-﻿using ERPServer.Application;
+using DefaultCorsPolicyNugetPackage;
+using ERPServer.Application;
 using ERPServer.Infrastructure;
 using ERPServer.WebAPI.Middlewares;
-using DefaultCorsPolicyNugetPackage;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 
@@ -61,4 +61,3 @@ app.MapControllers();
 ExtensionsMiddleware.CreateFirstUser(app);
 
 app.Run();
-

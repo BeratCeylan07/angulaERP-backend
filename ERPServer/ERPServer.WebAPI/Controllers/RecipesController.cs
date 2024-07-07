@@ -1,4 +1,4 @@
-using ERPServer.Application.Features.Recipes.CreateRecipe;
+﻿using ERPServer.Application.Features.Recipes.CreateRecipe;
 using ERPServer.Application.Features.Recipes.DeleteRecipeById;
 using ERPServer.Application.Features.Recipes.GetAllRecipe;
 using ERPServer.WebAPI.Abstractions;
@@ -19,23 +19,18 @@ public sealed class RecipesController : ApiController
         var response = await _mediator.Send(request, cancellationToken);
         return StatusCode(response.StatusCode, response);
     }
-    
+
     [HttpPost]
     public async Task<IActionResult> Create(CreateRecipeCommand request, CancellationToken cancellationToken)
     {
         var response = await _mediator.Send(request, cancellationToken);
         return StatusCode(response.StatusCode, response);
     }
+
     [HttpPost]
     public async Task<IActionResult> DeleteById(DeleteRecipeByIdCommand request, CancellationToken cancellationToken)
     {
         var response = await _mediator.Send(request, cancellationToken);
         return StatusCode(response.StatusCode, response);
-    }
-    [HttpPost]
-    public async Task<IActionResult> GetByIdWithDetails(DeleteRecipeByIdCommand request, CancellationToken cancellationToken)
-    {
-        var response = await _mediator.Send(request, cancellationToken);
-        return StatusCode(response.StatusCode, response);
-    }
+    }    
 }

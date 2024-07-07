@@ -1,6 +1,6 @@
-using AutoMapper;
+﻿using AutoMapper;
 using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -15,22 +15,23 @@ internal sealed class CreateOrderCommandHandler(
 {
     public async Task<Result<string>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
-        Order? LastOrder = await orderRepository
-            .Where(p => p.OrderNumberYear == request.CreatedDate.Year)
+        Order? lastOrder = 
+            await orderRepository
+            .Where(p => p.OrderNumberYear == request.Date.Year)
             .OrderByDescending(p => p.OrderNumber)
             .FirstOrDefaultAsync(cancellationToken);
+
         int lastOrderNumber = 0;
-        if (LastOrder is not null)
-        {
-            lastOrderNumber = LastOrder.OrderNumber;
-        }
+
+        if(lastOrder is not null) lastOrderNumber = lastOrder.OrderNumber;        
 
         Order order = mapper.Map<Order>(request);
-        order.OrderNumber = lastOrderNumber++;
-        order.OrderNumberYear = request.CreatedDate.Year;
+        order.OrderNumber = lastOrderNumber + 1;
+        order.OrderNumberYear = request.Date.Year;
+
         await orderRepository.AddAsync(order, cancellationToken);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        return "Sipariş Oluşturuldu";
+        return "Sipariş başarıyla oluşturuldu";
     }
 }

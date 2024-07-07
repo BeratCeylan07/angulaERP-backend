@@ -1,6 +1,6 @@
-using AutoMapper;
+﻿using AutoMapper;
 using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
 using TS.Result;
@@ -15,17 +15,18 @@ internal sealed class UpdateProductCommandHandler(
     public async Task<Result<string>> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
     {
         Product product = await productRepository.GetByExpressionWithTrackingAsync(p => p.Id == request.Id, cancellationToken);
+
         if (product is null)
         {
-            return Result<string>.Failure("Ürün Bulunamadı");
+            return Result<string>.Failure("Ürün bulunamadı");
         }
 
-        if (product.Name != request.Name)
+        if(product.Name != request.Name)
         {
-            bool isNameExistis = await productRepository.AnyAsync(p => p.Name == request.Name, cancellationToken);
-            if (isNameExistis)
+            bool isNameExists = await productRepository.AnyAsync(p => p.Name == request.Name, cancellationToken);
+            if (isNameExists)
             {
-                return Result<string>.Failure("Ürün Adı Daha Önce Kullanılmış");
+                return Result<string>.Failure("Ürün adı daha önce kullanılmış");
             }
         }
 
@@ -33,6 +34,6 @@ internal sealed class UpdateProductCommandHandler(
 
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        return "Ürün Başarıyla Güncellendi";
+        return "Ürün başarıyla güncellendi";
     }
 }

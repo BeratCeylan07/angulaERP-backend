@@ -4,4 +4,3 @@ public sealed record LoginCommandResponse(
     string Token,
     string RefreshToken,
     DateTime RefreshTokenExpires);
-

@@ -1,10 +1,7 @@
-using ERPServer.Application.Features.RecipeDetails.CreateRecipeDetail;
+﻿using ERPServer.Application.Features.RecipeDetails.CreateRecipeDetail;
 using ERPServer.Application.Features.RecipeDetails.DeleteRecipeDetailById;
 using ERPServer.Application.Features.RecipeDetails.GetRecipeByIdWithDetails;
 using ERPServer.Application.Features.RecipeDetails.UpdateRecipeDetail;
-using ERPServer.Application.Features.Recipes.CreateRecipe;
-using ERPServer.Application.Features.Recipes.DeleteRecipeById;
-using ERPServer.Application.Features.Recipes.GetAllRecipe;
 using ERPServer.WebAPI.Abstractions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

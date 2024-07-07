@@ -4,7 +4,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 namespace ERPServer.Infrastructure.Options;
-
 public sealed class JwtTokenOptionsSetup(
     IOptions<JwtOptions> jwtOptions) : IPostConfigureOptions<JwtBearerOptions>
 {

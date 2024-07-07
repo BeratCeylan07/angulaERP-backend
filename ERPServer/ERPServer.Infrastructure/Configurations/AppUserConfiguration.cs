@@ -11,4 +11,3 @@ internal sealed class AppUserConfiguration : IEntityTypeConfiguration<AppUser>
         builder.Property(p => p.LastName).HasColumnType("varchar(50)");
     }
 }
-

@@ -1,5 +1,5 @@
-using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+﻿using ERPServer.Domain.Entities;
+using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
 using TS.Result;
@@ -16,13 +16,12 @@ internal sealed class DeleteCustomerByIdCommandHandler(
 
         if (customer is null)
         {
-            return Result<string>.Failure("Müşteri Bulunamadı");
+            return Result<string>.Failure("Müşteri bulunamadı");
         }
-        
+
         customerRepository.Delete(customer);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        return "Müşteri Başarıyla Silindi";
-
+        return "Müşteri başarıyla silindi";
     }
 }

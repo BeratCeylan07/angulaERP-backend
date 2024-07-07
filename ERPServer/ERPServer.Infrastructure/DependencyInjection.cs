@@ -42,7 +42,7 @@ public static class DependencyInjection
         services.AddAuthentication()
             .AddJwtBearer();
         services.AddAuthorizationBuilder();
-
+        
         services.Scan(action =>
         {
             action
@@ -57,4 +57,3 @@ public static class DependencyInjection
         return services;
     }
 }
-

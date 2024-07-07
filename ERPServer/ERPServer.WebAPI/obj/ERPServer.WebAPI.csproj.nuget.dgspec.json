@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj": {}
+    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
+    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
+        "projectUniqueName": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
         "projectName": "ERPServer.Application",
-        "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
+        "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj",
         "packagesPath": "/Users/beratceylan/.nuget/packages/",
-        "outputPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/obj/",
+        "outputPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/NuGet.Config",
           "/Users/beratceylan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +27,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
-                "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
+              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
+                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
               }
             }
           }
@@ -88,16 +89,17 @@
         }
       }
     },
-    "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
+    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
+        "projectUniqueName": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
         "projectName": "ERPServer.Domain",
-        "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
+        "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj",
         "packagesPath": "/Users/beratceylan/.nuget/packages/",
-        "outputPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/obj/",
+        "outputPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/NuGet.Config",
           "/Users/beratceylan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -156,16 +158,17 @@
         }
       }
     },
-    "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {
+    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
+        "projectUniqueName": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
         "projectName": "ERPServer.Infrastructure",
-        "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
+        "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
         "packagesPath": "/Users/beratceylan/.nuget/packages/",
-        "outputPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Infrastructure/obj/",
+        "outputPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/NuGet.Config",
           "/Users/beratceylan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -178,11 +181,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
-                "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/ERPServer.Application.csproj"
+              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
+                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj"
               },
-              "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
-                "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
+              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
+                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
               }
             }
           }
@@ -237,16 +240,17 @@
         }
       }
     },
-    "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj": {
+    "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj",
+        "projectUniqueName": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj",
         "projectName": "ERPServer.WebAPI",
-        "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj",
+        "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.WebAPI/ERPServer.WebAPI.csproj",
         "packagesPath": "/Users/beratceylan/.nuget/packages/",
-        "outputPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.WebAPI/obj/",
+        "outputPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.WebAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/NuGet.Config",
           "/Users/beratceylan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -259,14 +263,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
-                "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Application/ERPServer.Application.csproj"
+              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj": {
+                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Application/ERPServer.Application.csproj"
               },
-              "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
-                "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
+              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj": {
+                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Domain/ERPServer.Domain.csproj"
               },
-              "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {
-                "projectPath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj"
+              "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj": {
+                "projectPath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj"
               }
             }
           }

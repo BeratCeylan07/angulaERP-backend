@@ -1,6 +1,6 @@
-using AutoMapper;
+﻿using AutoMapper;
 using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
 using TS.Result;
@@ -10,8 +10,7 @@ namespace ERPServer.Application.Features.Customers.UpdateCustomer;
 internal sealed class UpdateCustomerCommandHandler(
     ICustomerRepository customerRepository,
     IUnitOfWork unitOfWork,
-    IMapper mapper
-) : IRequestHandler<UpdateCustomerCommand, Result<string>>
+    IMapper mapper) : IRequestHandler<UpdateCustomerCommand, Result<string>>
 {
     public async Task<Result<string>> Handle(UpdateCustomerCommand request, CancellationToken cancellationToken)
     {
@@ -22,10 +21,9 @@ internal sealed class UpdateCustomerCommandHandler(
             return Result<string>.Failure("Müşteri bulunamadı");
         }
 
-        if (customer.TaxNumber != request.TaxNumber)
+        if(customer.TaxNumber != request.TaxNumber)
         {
-            bool isTaxNumberExists =
-                await customerRepository.AnyAsync(p => p.TaxNumber == request.TaxNumber, cancellationToken);
+            bool isTaxNumberExists = await customerRepository.AnyAsync(p => p.TaxNumber == request.TaxNumber, cancellationToken);
 
             if (isTaxNumberExists)
             {
@@ -37,7 +35,6 @@ internal sealed class UpdateCustomerCommandHandler(
 
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        return "Müşteri Bilgileri Güncellendi";
-
+        return "Müşteri bilgileri başarıyla güncellendi";
     }
 }

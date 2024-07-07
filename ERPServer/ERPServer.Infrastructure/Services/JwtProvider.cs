@@ -26,7 +26,7 @@ internal class JwtProvider(
 
         DateTime expires = DateTime.UtcNow.AddMonths(1);
 
-       
+
         var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.Value.SecretKey));
 
         JwtSecurityToken jwtSecurityToken = new(
@@ -52,4 +52,3 @@ internal class JwtProvider(
         return new(token, refreshToken, refreshTokenExpires);
     }
 }
-

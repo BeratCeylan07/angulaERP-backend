@@ -13,4 +13,3 @@ public sealed class LoginCommandValidator : AbstractValidator<LoginCommand>
             .WithMessage("Şifre en az 1 karakter olmalıdır");
     }
 }
-

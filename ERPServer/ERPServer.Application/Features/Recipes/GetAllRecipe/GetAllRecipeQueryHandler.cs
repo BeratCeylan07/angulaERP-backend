@@ -1,5 +1,5 @@
-using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+﻿using ERPServer.Domain.Entities;
+using ERPServer.Domain.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using TS.Result;
@@ -13,10 +13,10 @@ internal sealed class GetAllRecipeQueryHandler(
     {
         List<Recipe> recipes = 
             await recipeRepository
-                .GetAll()
-                .Include(p => p.Product)
-                .OrderBy(p => p.Product!.Name)
-                .ToListAsync(cancellationToken);
+            .GetAll()
+            .Include(p => p.Product)
+            .OrderBy(p => p.Product!.Name)
+            .ToListAsync(cancellationToken);
 
         return recipes;
     }

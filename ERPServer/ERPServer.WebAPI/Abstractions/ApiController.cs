@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ERPServer.WebAPI.Abstractions;
-
 [Route("api/[controller]/[action]")]
 [ApiController]
 [Authorize(AuthenticationSchemes = "Bearer")]
@@ -16,4 +15,3 @@ public abstract class ApiController : ControllerBase
         _mediator = mediator;
     }
 }
-

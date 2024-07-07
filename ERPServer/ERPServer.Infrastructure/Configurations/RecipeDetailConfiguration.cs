@@ -1,4 +1,4 @@
-using ERPServer.Domain.Entities;
+﻿using ERPServer.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -8,6 +8,6 @@ internal sealed class RecipeDetailConfiguration : IEntityTypeConfiguration<Recip
 {
     public void Configure(EntityTypeBuilder<RecipeDetail> builder)
     {
-        builder.Property(p => p.Quantity).HasColumnType("decimal(7,2)"); // Toplam 7 karakter yazılabilir ! 00000,00 (virgülden sonra 2 karakter yazılabilir)
+        builder.Property(p => p.Quantity).HasColumnType("decimal(7,2)");
     }
 }

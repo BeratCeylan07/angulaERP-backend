@@ -1,6 +1,6 @@
-using AutoMapper;
+﻿using AutoMapper;
 using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -16,20 +16,35 @@ internal sealed class UpdateOrderCommandHandler(
 {
     public async Task<Result<string>> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
     {
-        Order? order = await orderRepository.Where(p => p.Id == request.Id)
-            .Include(i => i.Details)
-            .FirstOrDefaultAsync(cancellationToken);
+        Order? order = 
+            await orderRepository
+            .Where(p => p.Id == request.Id)
+            .Include(p=> p.Details)
+            .FirstOrDefaultAsync();
+
         if (order is null)
         {
-            return Result<string>.Failure("Sipariş Bulunamadı");
+            return Result<string>.Failure("Sipariş bulunamadı");
         }
-            
-        // Güncellemek istediğimiz kayıttaki mevcut details ları sildikten sonra request ile gönderdiğimiz detailsları tekrardan ekliyoruz..... burası zor ve önemli
+
         orderDetailRepository.DeleteRange(order.Details);
+
+        List<OrderDetail> newDetails = request.Details.Select(s => new OrderDetail
+        {
+            OrderId = order.Id,
+            Price = s.Price,
+            ProductId = s.ProductId,
+            Quantity = s.Quantity
+        }).ToList();
+
+        await orderDetailRepository.AddRangeAsync(newDetails, cancellationToken);
+
         mapper.Map(request, order);
-        await unitOfWork.SaveChangesAsync(cancellationToken);
+
+        orderRepository.Update(order);
+
+        await unitOfWork.SaveChangesAsync();
 
         return "Sipariş başarıyla güncellendi";
-
     }
 }

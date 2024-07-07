@@ -1,4 +1,4 @@
-using MediatR;
+﻿using MediatR;
 using TS.Result;
 
 namespace ERPServer.Application.Features.RecipeDetails.DeleteRecipeDetailById;

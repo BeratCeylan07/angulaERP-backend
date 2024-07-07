@@ -1,4 +1,4 @@
-using FluentValidation;
+﻿using FluentValidation;
 
 namespace ERPServer.Application.Features.Customers.UpdateCustomer;
 

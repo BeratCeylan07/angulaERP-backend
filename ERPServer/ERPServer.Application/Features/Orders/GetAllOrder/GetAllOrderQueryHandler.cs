@@ -1,5 +1,5 @@
-using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+﻿using ERPServer.Domain.Entities;
+using ERPServer.Domain.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using TS.Result;
@@ -11,11 +11,13 @@ internal sealed class GetAllOrderQueryHandler(
 {
     public async Task<Result<List<Order>>> Handle(GetAllOrderQuery request, CancellationToken cancellationToken)
     {
-        List<Order>? orders = await orderRepository.GetAll()
+        List<Order> orders = 
+            await orderRepository
+            .GetAll()
             .Include(p => p.Customer)
             .Include(p => p.Details!)
-            .ThenInclude(d => d.Product)
-            .OrderByDescending(o => o.CreatedAt)
+            .ThenInclude(p => p.Product)
+            .OrderByDescending(p=> p.Date)
             .ToListAsync(cancellationToken);
 
         return orders;

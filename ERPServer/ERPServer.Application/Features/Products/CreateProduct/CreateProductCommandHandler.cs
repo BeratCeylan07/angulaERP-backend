@@ -1,6 +1,6 @@
-using AutoMapper;
+﻿using AutoMapper;
 using ERPServer.Domain.Entities;
-using ERPServer.Domain.Respositories;
+using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
 using TS.Result;
@@ -17,18 +17,13 @@ internal sealed class CreateProductCommandHandler(
         bool isNameExists = await productRepository.AnyAsync(p => p.Name == request.Name, cancellationToken);
         if (isNameExists)
         {
-            return Result<string>.Failure("Ürün Adı Daha Öncede Kullanılmış");
+            return Result<string>.Failure("Ürün adı daha önce kullanılmış");
         }
 
-        Product producut = mapper.Map<Product>(request); // burada bizim eski yöntem olan var product = new product() { id: "", name: "", type:"" } mantığını otomatik oluşturuyor
-        await productRepository.AddAsync(producut, cancellationToken);
+        Product product = mapper.Map<Product>(request);
+        await productRepository.AddAsync(product, cancellationToken);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        return "Ürün Başarıyla Oluşturuldu";
+        return "Ürün başarıyla oluşturuldu";
     }
 }
-
-
-// Product Type 0,1,2,3, gibi değerler gelebilir biz ProductTypeEnum
-// 0 dan değil 1 den başlattığımız için validator atayarak değeri 0 göndermesini engellememiz gerekiyor..
-// Bu kontrol class ismi => CreataProductCommandValidator

@@ -7,4 +7,3 @@ public abstract class Entity
         Id = Guid.NewGuid();
     }
 }
-

@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 
 namespace ERPServer.WebAPI.Middlewares;
-
 public static class ExtensionsMiddleware
 {
     public static void CreateFirstUser(WebApplication app)
@@ -17,8 +16,8 @@ public static class ExtensionsMiddleware
                 {
                     UserName = "admin",
                     Email = "admin@admin.com",
-                    FirstName = "Berat",
-                    LastName = "Ceylan",
+                    FirstName = "Taner",
+                    LastName = "Saydam",
                     EmailConfirmed = true
                 };
 
@@ -27,4 +26,3 @@ public static class ExtensionsMiddleware
         }
     }
 }
-

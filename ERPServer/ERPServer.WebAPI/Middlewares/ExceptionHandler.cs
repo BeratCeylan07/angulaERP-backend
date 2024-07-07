@@ -4,7 +4,6 @@ using System.Text.Json;
 using TS.Result;
 
 namespace ERPServer.WebAPI.Middlewares;
-
 public class ExceptionHandler : IExceptionHandler
 {
     public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
@@ -32,4 +31,3 @@ public class ExceptionHandler : IExceptionHandler
         return true;
     }
 }
-

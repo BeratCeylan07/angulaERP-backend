@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B19O4YKAwQSAi0P7tuiaomh+CtjEMIf/MjFLHY3RqxtE5TIouEB/dzeM57tgp7tmL2k7OnbbE87nFTqjgBRfRQ==",
+  "dgSpecHash": "lcABJMUFO3AxS01YhrOd7CNm/YMhHZS6dK22afJwmY5sDHZME7Ig1wa+1Ba+414ZmxDHcX35YcSP9DZc+Ro54Q==",
   "success": true,
-  "projectFilePath": "/Users/beratceylan/Projects/ERPServer/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
+  "projectFilePath": "/Users/beratceylan/Downloads/ERP.Udemy-main/ERPServer/ERPServer.Infrastructure/ERPServer.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/beratceylan/.nuget/packages/ardalis.smartenum/8.0.0/ardalis.smartenum.8.0.0.nupkg.sha512",
     "/Users/beratceylan/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
